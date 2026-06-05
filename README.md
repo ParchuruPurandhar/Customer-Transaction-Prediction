@@ -96,37 +96,36 @@ The following analyses were performed:
 #### Machine Learning Models Implemented
 
 1. Logistic Regression
-    Simple baseline model
-    Fast training and prediction
-3. Decision Tree
-    Easy interpretability
-    Captures nonlinear relationships
-4. Support Vector Machine (Linear SVC)
-    Effective in high-dimensional spaces
-    Good classification performance
-5. Random Forest
-    Ensemble learning approach
-    Reduces overfitting
-    Handles feature interactions effectively
-6. XGBoost
-    gradient boosting algorithm
-    High predictive performance
-    Handles complex patterns efficiently
+      Simple baseline model
+      Fast training and prediction
+2. Decision Tree
+      Easy interpretability
+      Captures nonlinear relationships
+3. Support Vector Machine (Linear SVC)
+      Effective in high-dimensional spaces
+      Good classification performance
+4. Random Forest
+      Ensemble learning approach
+      Reduces overfitting
+      Handles feature interactions effectively
+5. XGBoost
+      gradient boosting algorithm
+      High predictive performance
+      Handles complex patterns efficiently
    
 ### Model Evaluation Metrics
 
 ##### The following metrics were used:
 
-  ◊ Accuracy
-  ◊ Precision
-  ◊ Recall
-  ◊ F1 Score
+    Accuracy
+    Precision
+    Recall
+    F1 Score
 
 ##### Since the dataset is imbalanced, greater importance was given to:
-
-  ◊ Precision
-  ◊ Recall
-  ◊ F1 Score
+    Precision
+    Recall
+    F1 Score
   
 ### Hyperparameter Tuning
 
@@ -143,49 +142,52 @@ GridSearchCV was used to optimize:
     Min samples split
     Min samples leaf
 #### Ⅲ SVM
-  ● C value
-  ● Loss function
+    C value
+    Loss function
 #### Ⅳ Random Forest
-  ● Number of estimators
-  ● Max depth
-  ● Min samples split
-  ● Min samples leaf
+    Number of estimators
+    Max depth
+    Min samples split
+    Min samples leaf
 #### Ⅴ XGBoost
-  ● Number of estimators
-  ● Learning rate
-  ● Max depth
-### Results
-  Model Comparison
-⇉ The performance of all models was compared before and after tuning.
-⇉ Best Performing Model
+    Number of estimators
+    Learning rate
+    Max depth
+### Results - Model Comparison
+  The performance of all models was compared before and after tuning.
+  Best Performing Model
 
 🏆 XGBoost
 
 ### Reasons:
 
-Highest overall predictive performance
-Strong F1 Score
-Better handling of complex feature interactions
-Suitable for large-scale deployment
+    1. Highest overall predictive performance
+    2. Strong F1 Score
+    3. Better handling of complex feature interactions
+    4. Suitable for large-scale deployment
 ### Business Insights
-  Machine learning can effectively predict customer transaction behavior.
-  High-risk customers can be identified in advance.
-  Businesses can improve marketing campaigns using prediction results.
-  Resource allocation and customer targeting can be optimized.
+
+    1. Machine learning can effectively predict customer transaction behavior.
+    2. High-risk customers can be identified in advance.
+    3. Businesses can improve marketing campaigns using prediction results.
+    4. Resource allocation and customer targeting can be optimized.
 ### Challenges Faced
-  Handling feature scaling requirements across different algorithms.
-  Selecting the most appropriate model among multiple candidates.
-  Increased computation time during hyperparameter tuning.
-  Managing the trade-off between accuracy and model complexity.
+
+    1. Handling feature scaling requirements across different algorithms.
+    2. Selecting the most appropriate model among multiple candidates.
+    3. Increased computation time during hyperparameter tuning.
+    4. Managing the trade-off between accuracy and model complexity.
 ### Limitations
-  Target class imbalance may affect minority class prediction.
-  Features are anonymized, limiting business interpretation.
-  Performance depends on the quality of historical transaction data.
-  Future Improvements
-  Apply SMOTE for class imbalance handling.
-  Perform feature engineering.
-  Explore PCA for dimensionality reduction.
-  Experiment with Deep Learning models.
+
+    1. Target class imbalance may affect minority class prediction.
+    2. Features are anonymized, limiting business interpretation.
+    3. Performance depends on the quality of historical transaction data.
+### Future Improvements
+
+    1. Apply SMOTE for class imbalance handling.
+    2. Perform feature engineering.
+    3. Explore PCA for dimensionality reduction.
+    4. Experiment with Deep Learning models.
 
 ### Author
 
