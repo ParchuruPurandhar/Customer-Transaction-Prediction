@@ -29,27 +29,27 @@ Value	Meaning
   
 ### Project Workflow
 
-Data Collection
-       ↓
-Data Understanding
-       ↓
-Data Cleaning
-       ↓
-Exploratory Data Analysis (EDA)
-       ↓
-Feature Selection
-       ↓
-Train-Test Split
-       ↓
-Feature Scaling
-       ↓
-Model Training
-       ↓
-Hyperparameter Tuning
-       ↓
-Model Evaluation
-       ↓
-Best Model Selection
+    Data Collection
+           ↓
+    Data Understanding
+           ↓
+    Data Cleaning
+           ↓
+    Exploratory Data Analysis (EDA)
+           ↓
+    Feature Selection
+           ↓
+    Train-Test Split
+           ↓
+    Feature Scaling
+           ↓
+    Model Training
+           ↓
+    Hyperparameter Tuning
+           ↓
+    Model Evaluation
+           ↓
+    Best Model Selection
 
 
 ### Technologies Used
@@ -96,22 +96,22 @@ The following analyses were performed:
 #### Machine Learning Models Implemented
 
 1. Logistic Regression
-      Simple baseline model
-      Fast training and prediction
+      1. Simple baseline model
+      2. Fast training and prediction
 2. Decision Tree
-      Easy interpretability
-      Captures nonlinear relationships
+      1. Easy interpretability
+      2. Captures nonlinear relationships
 3. Support Vector Machine (Linear SVC)
-      Effective in high-dimensional spaces
-      Good classification performance
+      1. Effective in high-dimensional spaces
+      2. Good classification performance
 4. Random Forest
-      Ensemble learning approach
-      Reduces overfitting
-      Handles feature interactions effectively
+      1. Ensemble learning approach
+      2. Reduces overfitting
+      3. Handles feature interactions effectively
 5. XGBoost
-      gradient boosting algorithm
-      High predictive performance
-      Handles complex patterns efficiently
+      1. gradient boosting algorithm
+      2. High predictive performance
+      3. Handles complex patterns efficiently
    
 ### Model Evaluation Metrics
 
