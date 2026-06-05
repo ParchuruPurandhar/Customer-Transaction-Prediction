@@ -9,23 +9,24 @@ The project compares multiple supervised machine learning algorithms and identif
 
 The primary objectives of this project are:
 
-  » Predict whether a customer will make a transaction.
-  » Compare the performance of multiple machine learning algorithms.
-  » Improve model performance using hyperparameter tuning.
-  » Identify the most suitable model for deployment.
+    1. Predict whether a customer will make a transaction.
+    2. Compare the performance of multiple machine learning algorithms.
+    3. Improve model performance using hyperparameter tuning.
+    4. Identify the most suitable model for deployment.
 #### Dataset Information
 
 The dataset contains:
 
-  » 200 anonymized numerical features (var_0 to var_199)
-  » ID column: ID_code
-  » Target column: target
+    1. 200 anonymized numerical features (var_0 to var_199)
+    2. ID column: ID_code
+    3. Target column: target
 
 #### Target Values:
 
 Value	Meaning
-  » 0	No Transaction
-  » 1	Transaction Occurred
+
+    0	- No Transaction
+    1	- Transaction Occurred
   
 ### Project Workflow
 
