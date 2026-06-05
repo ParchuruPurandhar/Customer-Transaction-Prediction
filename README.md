@@ -63,7 +63,6 @@ Best Model Selection
     Scikit-Learn
     XGBoost
 ### Exploratory Data Analysis
-
 The following analyses were performed:
 
     Data Quality Checks
@@ -78,13 +77,14 @@ The following analyses were performed:
     Target variable distribution
     Correlation heatmap
 #### Key Findings
+
     Dataset contains no missing values.
     Features are already standardized/anonymized.
     Target variable is imbalanced.
     Most features show low correlation with each other.
     Several features contain useful outliers that should be retained.
 ### Data Preprocessing
-  Steps Performed
+
     Removed ID_code column.
     Split data into training and testing sets.
     Applied Standard Scaling using StandardScaler.
@@ -94,34 +94,35 @@ The following analyses were performed:
     X_test = scaler.transform(X_test)
 
 #### Machine Learning Models Implemented
+
 1. Logistic Regression
     Simple baseline model
     Fast training and prediction
-2. Decision Tree
+3. Decision Tree
     Easy interpretability
     Captures nonlinear relationships
-3. Support Vector Machine (Linear SVC)
+4. Support Vector Machine (Linear SVC)
     Effective in high-dimensional spaces
     Good classification performance
-4. Random Forest
+5. Random Forest
     Ensemble learning approach
     Reduces overfitting
     Handles feature interactions effectively
-5. XGBoost
-G    radient boosting algorithm
+6. XGBoost
+    gradient boosting algorithm
     High predictive performance
     Handles complex patterns efficiently
    
 ### Model Evaluation Metrics
 
-The following metrics were used:
+##### The following metrics were used:
 
   ◊ Accuracy
   ◊ Precision
   ◊ Recall
   ◊ F1 Score
 
-Since the dataset is imbalanced, greater importance was given to:
+##### Since the dataset is imbalanced, greater importance was given to:
 
   ◊ Precision
   ◊ Recall
@@ -132,14 +133,15 @@ Since the dataset is imbalanced, greater importance was given to:
 GridSearchCV was used to optimize:
 
 #### Ⅰ Logistic Regression
-  ● Penalty
-  ● C value
-  ● Max iterations
+
+    Penalty
+    C value
+    Max iterations
 #### Ⅱ Decision Tree
-  ● Criterion
-  ● Max depth
-  ● Min samples split
-  ● Min samples leaf
+    Criterion
+    Max depth
+    Min samples split
+    Min samples leaf
 #### Ⅲ SVM
   ● C value
   ● Loss function
